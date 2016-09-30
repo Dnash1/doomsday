@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
+p {
+	font-size: 16pt;
+	color: white;
+}
