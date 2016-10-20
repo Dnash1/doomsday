@@ -80,5 +80,23 @@ body {
 	margin-bottom: 0px;
 }
 
+#trailer {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
 
+#trailbox {
+	font-family: 'Adamina', serif;
+	letter-spacing: 3px;
+	opacity: 0.7;
+	color: white;
+	font-size: 50px;
+	flex-direction: column;
+}
+
+#trailbox > p {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
 
