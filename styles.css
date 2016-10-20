@@ -1,14 +1,84 @@
 body {
+	height: 100%;
 	margin: 0;
 	background-color: black;
 }
 
-.parallax-window {
+.parallax-window,
+.parallax-window2,
+.parallax-window3,
+.parallax-window4 {
     min-height: 600px;
     background: transparent;
 }
 
-p {
-	font-size: 16pt;
+.content {
+	height: 600px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#whisper {
+	font-family: 'Adamina', serif;
+	letter-spacing: 3px;
+	opacity: 0.7;
+	color: white;
+	font-size: 50px;
+	text-align: right;
+}
+
+#whisper > p {
+	margin-top: 50px;
+	margin-right: 5px;
+}
+
+#arm {
+	font-family: 'Adamina', serif;
+	letter-spacing: 3px;
+	opacity: 0.7;
+	color: white;
+	font-size: 50px;
+	text-align: left;
+}
+
+#arm > p {
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+.imgsplit {
+	flex: 1;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#syn {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.txtsplit {
+	flex: 1;
+	height: 100%;
+
+}
+
+.txtsplit > p {
+
+	font-size: 16px;
+	margin: 20px;
 	color: white;
 }
+
+#gallery {
+	display: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
