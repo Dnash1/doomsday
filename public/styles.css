@@ -21,6 +21,26 @@ body {
 	text-align: center;
 }
 
+.nav {
+	position: fixed;
+	width: 100%;
+}
+
+i {
+	padding-right: 10px;
+	padding-top: 10px;
+	float: right;
+	display: inline-block;
+}
+
+.nav a {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.nav a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
 #whisper {
 	font-family: 'Adamina', serif;
 	letter-spacing: 3px;
