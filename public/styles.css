@@ -21,6 +21,18 @@ body {
 	text-align: center;
 }
 
+.footer {
+	font-size: 10px;
+	color: white;
+	text-align: left;
+}
+
+.logo {
+	height: 50px;
+	float: right;
+	margin: 5px;
+}
+
 .nav {
 	position: fixed;
 	width: 100%;
@@ -129,6 +141,34 @@ i {
 	}
 	.txtsplit > p {
 		font-size: 6px;
+	}
+	#syn {
+		margin-top: 5px;
+	}
+	.content {
+		height: 400px;
+	}
+	#trailbox {
+		font-size: 25px;
+	}
+	.parallax-window,
+	.parallax-window2,
+	.parallax-window3,
+	.parallax-window4 {
+		min-height: 300px;
+	}
+	#arm {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+
+	#whisper {
+		font-size: 25px;
+	}
+	.txtsplit > p {
+		font-size: 8px;
 	}
 	#syn {
 		margin-top: 5px;
