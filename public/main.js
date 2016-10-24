@@ -75,7 +75,7 @@ $(window).load(function() {
 			tile_enable_shadow: false,
 			tile_space_between_icons: 0,
 			theme_navigation_type: "none",
-			grid_num_rows: 5,
+			grid_num_rows: 4,
 			tile_enable_overlay: false,
 			tile_enable_icons: false,
 			tile_enable_image_effect: true,
