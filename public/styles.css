@@ -14,6 +14,7 @@ body {
 
 .content {
 	height: 600px;
+	display: -webkit-flex;
 	display: flex;
 	margin: 0;
 	padding: 0;
