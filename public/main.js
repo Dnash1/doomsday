@@ -25,7 +25,7 @@ $(window).load(function() {
 			tile_enable_textpanel: true,
 			lightbox_show_numbers: false,
 			lightbox_textpanel_enable_description: true,
-			lightbox_textpanel_desc_font_size: 8
+			lightbox_textpanel_desc_font_size: 12
 		});
 		$('.parallax-window').parallax({imageSrc: './img/cover.jpg'});
 		$('.parallax-window2').parallax({imageSrc: './img/2.jpg'});
