@@ -101,6 +101,7 @@ i {
 }
 
 #trailer {
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -119,4 +120,48 @@ i {
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#whisper {
+		font-size: 25px;
+	}
+	.txtsplit > p {
+		font-size: 6px;
+	}
+	#syn {
+		margin-top: 5px;
+	}
+	.content {
+		height: 400px;
+	}
+	#trailbox {
+		font-size: 25px;
+	}
+	.parallax-window {
+		background-size: 200px;
+	}
+	#arm {
+		font-size: 25px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
