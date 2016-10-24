@@ -24,13 +24,14 @@ $(window).load(function() {
 			tile_image_effect_type: "bw",
 			tile_enable_textpanel: true,
 			lightbox_show_numbers: false,
-			lightbox_textpanel_enable_description: true
+			lightbox_textpanel_enable_description: true,
+			lightbox_textpanel_desc_font_size: 8
 		});
-		$('.parallax-window').parallax({imageSrc: './img/cover2.jpg'});
+		$('.parallax-window').parallax({imageSrc: './img/cover.jpg'});
 		$('.parallax-window2').parallax({imageSrc: './img/2.jpg'});
 		$('.parallax-window3').parallax({imageSrc: './img/5.jpg'});
 		$('.parallax-window4').parallax({imageSrc: './img/1.jpg'});
-		$('#whisper').parallax({imageSrc: './img/3a.jpg', speed: 0.4});
+		$('#whisper').parallax({imageSrc: './img/3.jpg', speed: 0.4});
 		$('#arm').parallax({imageSrc: './img/6.jpg', speed: 0.4});
 	}
 	else if ($(window).width() < 480) {
@@ -54,13 +55,14 @@ $(window).load(function() {
 			tile_image_effect_type: "bw",
 			tile_enable_textpanel: true,
 			lightbox_show_numbers: false,
-			lightbox_textpanel_enable_description: true
+			lightbox_textpanel_enable_description: true,
+			lightbox_textpanel_desc_font_size: 8
 		});
-		$('.parallax-window').parallax({imageSrc: './img/cover2.jpg'});
+		$('.parallax-window').parallax({imageSrc: './img/cover.jpg'});
 		$('.parallax-window2').parallax({imageSrc: './img/2.jpg'});
 		$('.parallax-window3').parallax({imageSrc: './img/5.jpg'});
 		$('.parallax-window4').parallax({imageSrc: './img/1.jpg'});
-		$('#whisper').parallax({imageSrc: './img/3a.jpg', speed: 0.4});
+		$('#whisper').parallax({imageSrc: './img/3.jpg', speed: 0.4});
 		$('#arm').parallax({imageSrc: './img/6.jpg', speed: 0.4});
 	} else {
 		$("#gallery").unitegallery({
