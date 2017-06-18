@@ -31,6 +31,7 @@ $(window).load(function() {
 		$('.parallax-window2').parallax({imageSrc: './img/2.jpg'});
 		$('.parallax-window3').parallax({imageSrc: './img/5.jpg'});
 		$('.parallax-window4').parallax({imageSrc: './img/1.jpg'});
+		$('.parallax-window5').parallax({imageSrc: './img/7.jpg'});
 		$('#whisper').parallax({imageSrc: './img/3.jpg', speed: 0.4});
 		$('#arm').parallax({imageSrc: './img/6.jpg', speed: 0.4});
 	}
@@ -62,6 +63,7 @@ $(window).load(function() {
 		$('.parallax-window2').parallax({imageSrc: './img/2.jpg'});
 		$('.parallax-window3').parallax({imageSrc: './img/5.jpg'});
 		$('.parallax-window4').parallax({imageSrc: './img/1.jpg'});
+		$('.parallax-window5').parallax({imageSrc: './img/7.jpg'});
 		$('#whisper').parallax({imageSrc: './img/3.jpg', speed: 0.4});
 		$('#arm').parallax({imageSrc: './img/6.jpg', speed: 0.4});
 	} else {
@@ -88,6 +90,7 @@ $(window).load(function() {
 		$('.parallax-window2').parallax({imageSrc: './img/2.jpg'});
 		$('.parallax-window3').parallax({imageSrc: './img/5.jpg'});
 		$('.parallax-window4').parallax({imageSrc: './img/1.jpg'});
+		$('.parallax-window5').parallax({imageSrc: './img/7.jpg'});
 		$('#whisper').parallax({imageSrc: './img/3.jpg', speed: 0.4});
 		$('#arm').parallax({imageSrc: './img/6.jpg', speed: 0.4});
 	}

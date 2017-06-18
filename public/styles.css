@@ -7,9 +7,15 @@ body {
 .parallax-window,
 .parallax-window2,
 .parallax-window3,
-.parallax-window4 {
+.parallax-window4,
+.parallax-window5 {
     min-height: 600px;
     background: transparent;
+}
+
+a {
+
+	color: white;
 }
 
 .content {
@@ -20,6 +26,12 @@ body {
 	padding: 0;
 	font-size: 14pt;
 	text-align: center;
+}
+
+.pressitem {
+	padding-left: 100px;
+	padding-right: 100px;
+
 }
 
 .footer {
@@ -66,6 +78,32 @@ i {
 #whisper > p {
 	margin-top: 50px;
 	margin-right: 5px;
+}
+
+.press {
+	flex-direction: column;
+	color: white;
+	min-height: 1000px;
+}
+
+.press > p {
+	width: 100%;
+	font-family: 'Adamina', serif;
+	letter-spacing: 3px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+#title {
+	width: 100%;
+	font-family: 'Adamina', serif;
+	letter-spacing: 3px;
+	opacity: 0.7;
+	color: white;
+	font-size: 50px;
+	text-align: center;
 }
 
 #arm {
@@ -150,6 +188,14 @@ i {
 	.content {
 		height: 400px;
 	}
+	.press {
+		min-height: 1050px;
+		font-size: 10px;
+	}
+	.pressitem {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 	#trailbox {
 		font-size: 25px;
 		height: 800px;
@@ -157,7 +203,8 @@ i {
 	.parallax-window,
 	.parallax-window2,
 	.parallax-window3,
-	.parallax-window4 {
+	.parallax-window4,
+	.parallax-window5 {
 		min-height: 300px;
 	}
 	#arm {
@@ -183,13 +230,18 @@ i {
 	.content {
 		height: 400px;
 	}
+	.press {
+		/*height: 1200px;*/
+		font-size: 8px;
+	}
 	#trailbox {
 		font-size: 25px;
 	}
 	.parallax-window,
 	.parallax-window2,
 	.parallax-window3,
-	.parallax-window4 {
+	.parallax-window4,
+	.parallax-window5 {
 		min-height: 300px;
 	}
 	#arm {
@@ -206,7 +258,7 @@ i {
 		font-size: 50px;
 	}
 	.txtsplit > p {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	#syn {
 		margin-top: 5px;
@@ -214,13 +266,18 @@ i {
 	.content {
 		height: 600px;
 	}
+	.press {
+		font-size: 14px;
+		height: 1000px;
+	}
 	#trailbox {
 		font-size: 25px;
 	}
 	.parallax-window,
 	.parallax-window2,
 	.parallax-window3,
-	.parallax-window4 {
+	.parallax-window4,
+	.parallax-window5 {
 		min-height: 300px;
 	}
 	#arm {
